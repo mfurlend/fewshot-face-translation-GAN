@@ -1,5 +1,6 @@
 from keras.layers import *
 from keras.layers.advanced_activations import LeakyReLU
+from keras import regularizers
 import tensorflow as tf
 
 from networks.instance_normalization import InstanceNormalization
